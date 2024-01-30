@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img width="400" src="./assets/logo.svg" alt="logo of awesome-vite repository">
+  <img width="400" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" alt="logo of awesome-vite repository">
   <br>
   <br>
 </p>
