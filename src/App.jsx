@@ -6,13 +6,12 @@ import { UserDashboard } from "./Routes/UserDashboard";
 import ResponsiveAppBar from "./Components/NavBar";
 
 function App() {
-  const error = useFetch("courses.json");
   return (
     <>
       <BrowserRouter>
         <ResponsiveAppBar />
         <Routes>
-          <Route path="/" element={<CourseList error={error} />} />
+          <Route path="/" element={<CourseList />} />
           <Route path="/course/:id" element={<IndividualCourse />} />
           <Route path="/dashboard" element={<UserDashboard />} />
         </Routes>
